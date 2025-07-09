@@ -30,6 +30,11 @@ header h1 {
 }
 
 .product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 420px;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 12px;
@@ -46,7 +51,8 @@ header h1 {
 
 .product-card img {
   width: 100%;
-  height: auto;
+  height: 180px;
+  object-fit: contain;
   border-radius: 8px;
   margin-bottom: 12px;
 }
@@ -55,21 +61,25 @@ header h1 {
   font-size: 18px;
   margin-bottom: 6px;
   color: #333;
+  min-height: 48px;
 }
 
 .product-card p {
   font-size: 14px;
   color: #666;
   margin: 8px 0;
+  min-height: 40px;
 }
 
 .product-card .price {
   font-size: 16px;
   color: #e91e63;
   margin-bottom: 10px;
+  min-height: 24px;
 }
 
 .product-card button {
+  margin-top: auto;
   padding: 10px 16px;
   background-color: #2874f0;
   color: white;
