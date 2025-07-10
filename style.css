@@ -42,12 +42,9 @@ header h1 {
   width: 250px;
   padding: 16px;
   text-align: center;
-  transition: transform 0.3s;
 }
 
-.product-card:hover {
-  transform: translateY(-5px);
-}
+
 
 .product-card img {
   width: 100%;
@@ -86,7 +83,6 @@ header h1 {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.3s;
 }
 
 .product-card button:hover {
